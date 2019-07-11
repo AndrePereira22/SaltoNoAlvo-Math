@@ -24,8 +24,11 @@ public class app {
 		
 		Janela janela = new Janela(LARGURA, ALTURA);
 		Fase1 fase1 = new Fase1(L_FASE,A_FASE);
+		
+		
 		Fase2 fase2 = new Fase2(L_FASE,A_FASE);
 		Menu menu = new Menu(LARGURA, ALTURA);
+		
 		Creditos creditos= new Creditos(LARGURA, ALTURA);
 		Ajuda ajuda = new Ajuda(LARGURA, ALTURA);
 		Ranking ranking = new Ranking(LARGURA, ALTURA);
